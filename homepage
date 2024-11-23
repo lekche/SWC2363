@@ -11,9 +11,9 @@
     <link href="../dreamweaver/styles.ccs.css" rel="stylesheet" type="text/css">
   </head>
   <body style="padding-top: 70px">
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#"><img src="../dreamweaver/Sekolah_Menengah_Kebangsaan_Puchong_Utama_(1).jpg" alt="" width="50" height="63" class="img-fluid rounded-circle"/>&nbsp;</a><a class="navbar-brand" href="#"><strong><em>SMK PU 1&nbsp;</em></strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#"><img src="../dreamweaver/Sekolah_Menengah_Kebangsaan_Puchong_Utama_(1).jpg" alt="" width="50" height="63" class="img-fluid rounded-circle"/>&nbsp;</a><a class="navbar-brand" href="#"><strong><em>SMK PU 1&nbsp;</em></strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-  <a class="nav-link" href="#"><img src="../dreamweaver/5bbc3519d674c.jpg" alt="" width="48" height="48" class="rounded-circle"/>&nbsp;</a>
+  <a class="nav-link" href="sign up.html"><img src="../dreamweaver/5bbc3519d674c.jpg" alt="" width="48" height="48" class="rounded-circle"/>&nbsp;</a>
   <div class="collapse navbar-collapse" id="navbarSupportedContent2">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active"> </li>
