@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up and Log Out</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #F118E7;
+    margin: 0;
+    padding: 0;
+        }
+body img {
+}
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #45a049;
+        }
+        .info-container {
+            display: none;
+            text-align: center;
+        }
+        .info-container p {
+            font-size: 18px;
+            color: #333;
+        }
+        .logout-message {
+            display: none;
+            text-align: center;
+            color: #4CAF50;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .logout-message p {
+            color: #f44336;
+        }
+    body p {
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    
+}
+    body p {
+}
+    </style>
+</head>
+<body>
+
+<img src="../dreamweaver/ggg.jpg" width="130" height="130" alt=""/>&nbsp;
+<div class="container">
+    <img src="../dreamweaver/5bbc3519d674c.jpg" width="100" height="100" alt=""/>
+    <h2>Sign Up&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h2>
+    
+    <div class="form-container">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="email" id="gmail" placeholder="Enter your Gmail" required>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <button onclick="signUp()">Sign Up</button>
+    </div>
+
+    <div  class="info-container" id="userInfo">
+		 <h1>Welcome Our Website School, <span id="userName"></span>!</h1>
+        <h1><p>Gmail: <span id="userGmail"></span></p></h1>
+		<h1><button onclick="logOut()">Log Out</button></h1>
+    </div>
+
+    <div class="logout-message" id="logoutMessage">
+        <h1><p>Your log out was successful. Ready to sign in again.</p></h1>
+    </div>
+</div>
+<script>
+    // Sign Up function
+    function signUp() {
+        const name = document.getElementById('name').value;
+        const gmail = document.getElementById('gmail').value;
+        const password = document.getElementById('password').value;
+
+        // Check if all fields are filled
+        if (name && gmail && password) {
+            // Display user info and hide the sign-up form
+            document.getElementById('userName').textContent = name;
+            document.getElementById('userGmail').textContent = gmail;
+            document.querySelector('.form-container').style.display = 'none';
+            document.getElementById('userInfo').style.display = 'block';
+        } else {
+            alert("Please fill in all fields.");
+        }
+    }
+
+    // Log out function with confirmation
+    function logOut() {
+        if (confirm("Are you sure you want to log out?")) {
+            document.getElementById('userInfo').style.display = 'none';
+            document.getElementById('logoutMessage').style.display = 'block';
+        }
+    }
+</script>
+
+</body>
+</html>
